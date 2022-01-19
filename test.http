@@ -1,0 +1,73 @@
+# GET POKEMON
+GET http://localhost:5000/pokemon
+Content-Type: application/json
+
+{
+    "limit": 2
+}
+
+POST http://localhost:5000/pokemon
+Content-Type: application/json
+
+{
+    "number": "#191",
+    "name": "Sunkern",
+    "height": 30.48,
+    "weight": 4.0,
+    "category": 1,
+    "type": [1]
+}
+
+PUT http://localhost:5000/pokemon/2
+Content-Type: application/json
+
+{
+    "number": "#191",
+    "name": "Sunkern",
+    "height": 30.48,
+    "weight": 4.0,
+    "category": 1,
+    "type": [1]
+}
+
+DELETE http://localhost:5000/pokemon/2
+
+GET http://localhost:5000/category
+
+POST http://localhost:5000/category
+Content-Type: application/json
+
+{
+    "name_category": "test"
+}
+
+PUT http://localhost:5000/category/2
+Content-Type: application/json
+
+{
+    "name_category": "test"
+}
+
+DELETE http://localhost:5000/category/2
+
+GET http://localhost:5000/type
+
+GET http://localhost:5000/type
+
+POST http://localhost:5000/type
+Content-Type: application/json
+
+{
+    "name_type": "test"
+}
+
+PUT http://localhost:5000/type/2
+Content-Type: application/json
+
+{
+    "name_type": "test"
+}
+
+DELETE http://localhost:5000/type/2
+
+GET http://localhost:5000/type
