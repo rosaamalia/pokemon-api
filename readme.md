@@ -1,7 +1,6 @@
 # Pokemon API
 
-## Teknologi Stack
-Pada endpoint REST sederhana ini, saya membuatnya dengan teknologi stack sebagai berikut.
+## Tech Stack
 * Node JS
 * Express JS
 * Sequelize
@@ -30,7 +29,7 @@ sequelize db:seed:all # Untuk membuat data awal yang telah disiapkan
 ```
 
 ## Penggunaan
-Base URL sesuai dengan environtment yang telah diatur.
+Base URL sesuai dengan environment yang telah diatur.
 
 ### List data pokemon
 *REQUEST*
@@ -174,7 +173,7 @@ Base URL sesuai dengan environtment yang telah diatur.
 *RESPONSE*
 ```json
 {
-    "message": "OK
+    "message": "OK"
 }
 ```
 
@@ -187,7 +186,7 @@ Base URL sesuai dengan environtment yang telah diatur.
 *RESPONSE*
 ```json
 {
-    "message": "OK
+    "message": "OK"
 }
 ```
 
@@ -232,7 +231,7 @@ Base URL sesuai dengan environtment yang telah diatur.
 *RESPONSE*
 ```json
 {
-    "message": "OK
+    "message": "OK"
 }
 ```
 
@@ -254,7 +253,7 @@ Base URL sesuai dengan environtment yang telah diatur.
 *RESPONSE*
 ```json
 {
-    "message": "OK
+    "message": "OK"
 }
 ```
 
@@ -315,7 +314,7 @@ Base URL sesuai dengan environtment yang telah diatur.
 *RESPONSE*
 ```json
 {
-    "message": "OK
+    "message": "OK"
 }
 ```
 
@@ -337,7 +336,7 @@ Base URL sesuai dengan environtment yang telah diatur.
 *RESPONSE*
 ```json
 {
-    "message": "OK
+    "message": "OK"
 }
 ```
 
